@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/taxi-index.css">  
+    <title>Yo'l-yo'lakay | xizmatlar</title>
+</head>
+
+<body>
+<div class="index">
+                    <!--menu uchun -->
+                    <div class="continer">
+                        <p><img src="../img/132-1326230_cool-green-circle-png-transparent-png.png" alt="Rasm bor"><span>Yo'l yo'lakay</span></p>
+                        <p class="user-pic" onclick="toggleMenu()"><span>D</span>.<span>Kamola</span></p>
+                        <div class="sub-menu-bar" id="subMenu">
+                            <div class="sub-menu">
+                                <div class="user-info">
+                                        <a href="../html/buyurtmalarim.html" class="sub-menu-link">
+                                            <p>Faol buyurtmalar</p><span>></span>
+                                        </a>
+                                        <a href="../html/arxiv-buyur.html" class="sub-menu-link">
+                                            <p>Arxiv buyurtmalar</p><span>></span>
+                                        </a>
+                                        <a href="../html/parol-yangi.html" class="sub-menu-link">
+                                            <p>Parolni o'zgartirish</p><span>></span>
+                                        </a>
+                                        <a href="../html/index.html" class="sub-menu-link">
+                                            <p>Chiqish</p><span>></span>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="continer1"></div>
+                    <!--asosiy qismi tana qismi -->
+                    <div class="asosiy">
+                        <div class="taxi-text">
+                            <div class="asos">
+                                    <div class="dev1">
+                                        <div class="dev-1">
+                                            <img src="../img/call.png" alt="iconka" class="icon">
+            
+                                                <select id="qayerdan" name="qdan">
+                                                    <option value="" disabled selected>Qayerdan</option>
+                                                  
+                                                </select>
+                                        </div>
+                                    </div>
+                                    <div class="dev1">
+                                        <img src="../img/8680045_arrow_left_right_line_icon.png" alt="" class="dev1-img">
+                                    </div>
+                                    <div class="dev1">
+                                        <div class="dev-1">
+                                        <img src="../img/call.png" alt="iconka" class="icon">
+                                            <select id="qayerga" name="qga" >
+                                                <option value="" disabled selected>Qayerga</option>
+                                              
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="dev1">
+                                        <div class="dev-1">
+                                                <img src="../img/call.png" alt="iconka" class="icon">
+                                                <label for="data"></label>
+                                                <input type="date"
+                                                id="data"
+                                                name="data">
+                                        </div>
+                                    </div>
+    
+                                    <div class="dev1"><a href="../html/taxi-jadval.html"><img src="../img/search-64.webp" alt="" class="dev1-img"></a>
+                                    </div>
+                                </div>
+                                    <div class="city">
+                                        <ul>
+                                            <li>Toshkent</li>
+                                            <li>Samarqand</li>
+                                            <li>Buxoro</li>
+                                            <li>Xiva</li>
+                                            <li>Qo'qon</li>
+                                            <li>Namangan</li>
+                                            <li>Navoiy</li>
+                                            <li>Jizzax</li>
+                                            <li>Surxandaryo</li>
+                                            <li>Sirdaryo</li>
+                                            <li>Qashqadaryo</li>
+                                            <li>Nukus</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--sana va yunalish uchun-->
+                                <div class="sana">
+                                    <p>10-oktabr, payshanba</p>
+                                    <h1><span>SAMARQANDga</span> boradigan avtomobillar</h1>
+                                </div>
+                                                    
+                                    <div class="h2"><img src="../img/call.png" alt="iconka" class="icon"><p>Mahalliy ketish vaqti <span id="sanaa">10.22.2024</span></p></div>
+                                                        <!--yunalishlar-->
+                                                        <div class="yunalish" id="p">
+                                                                <div class="yunalish1">
+                                                                        <div class="soat1">
+                                                                            <div class="vaqt">17:30</div>
+                                                                            <div class="manzil">Toshkent</div>
+                                                                        </div>
+                                                                        <p><img src="../img/120827.png" alt=""></p>
+                                                                        <div class="soat2">
+                                                                            <div class="manzil">Samarqand</div>
+                                                                        </div>
+                                                                </div>
+                                                                <div class="yunalish2">
+                                                                        <div class="soat1">
+                                                                            <div class="m">
+                                                                                <div class="m-turi">Nexia</div>
+                                                                                <div class="m-raqami">A 345 SA</div>
+                                                                            </div>
+                                                                            <p>Toshkent -> Samarqand</p>
+                                                                        </div>
+                                                                        <p>Bo'sh o'rinlar soni: </p>
+                                                                        <div class="soat2">
+                                                                            <div class="o-soni"><p>3</p></div>
+                                                                            <span> 170.000 </span><p> so'm </p></div>
+                                                                            <button id="tog-btn1">Bekor qilish</button>
+
+                                                                        <button id="tog-btn" onclick="toggleMenu1()">Tanlash</button> 
+                                                                </div>
+                                                        </div>  
+                                                  <div class="check" id="subMenu1">
+                                                    <div class="yunalish1">
+                                                        <div class="soat1">
+                                                            <div class="vaqt">Haydovchi</div>
+                                                            
+                                                        </div>
+                                                      
+                                                        <div class="soat2">
+                                                         
+                                                            <div class="manzil">Hamidov Jasur</div>
+                                                        </div>     
+                                                </div>
+                                                <div class="yunalish2">
+                                                        <div class="soat1">
+                                                            <div class="m">
+                                                                <div class="m-turi">Nexia</div>
+                                                                <div class="m-raqami">A 345 SA</div>
+                                                            </div>
+                                                            <p>Toshkent -> Samarqand</p>
+                                                        </div>
+                                                        <p style="font-weight: 700; color: black;">Joy band qilish: <br><br> <br>Jami so'mma:</p>
+                                                        <div class="soat2">
+                                                            <div class="o-soni"><input style="width: 35px;" type="number" placeholder="0" max="8" min="1"></div>
+                                                            <span> 170.000 <div class="summa"><br>170.000000</div> </span><p> so'm <br><br> <br>so'm </p></div>
+                                                        <button class="band" id ="btnn" >Band qilish</button> 
+                                                       </div>
+                                                      
+                                                  </div>
+                                                <!---->
+                                                
+                                                   <!---->
+                                                
+                                                
+                                                                                                     
+                                                
+                                            
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                    
+
+
+                    
+                    
+</div>
+  <script src="../js/ishu.js"></script>
+</body>
+</html>

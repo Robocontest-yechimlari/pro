@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/write.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.qulanma p{
+    font-size: 30px;
+    color: brown;
+    margin: 60px 50px;
+    text-align: center;
+}
+.lol a{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 60px;
+    color: red;
+}
+a:hover{
+    text-shadow: 0px 0px 5px rgba(65, 135, 110, 0.859), 
+                     0px 0px 10px rgb(97, 169, 140), 
+                     0px 0px 15px rgb(85, 137, 123),
+                     0px 0px 20px rgb(68, 148, 114),
+                     0px 0px 30px rgb(143, 181, 131),
+                     0px 0px 40px rgb(81, 123, 69),
+                     0px 0px 55px rgba(73, 255, 24, 1),
+                     0px 0px 75px rgba(73, 255, 24, 1);
+}

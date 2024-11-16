@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.log{
+    width: 100%;
+}
+nav{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+}
+.f-a{
+    display: flex;
+    position: relative;
+    top: 5px;
+    right: 36%;
+    width: 45%;
+}
+.f-a a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(57, 131, 171);
+    padding: 0px 15px;
+}
+.sub-menu-bar{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 250px;
+    overflow: hidden;
+    max-height:0px;
+    transition: max-height 0.5s ;
+}
+.user-pic{
+    font-size: 20px;
+    color: rgb(57, 131, 171);
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+.sub-menu-bar.open-menu{
+    max-height: 400px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+.sub-menu{
+    background: rgb(255, 255, 255);
+    padding: 5px 15px;
+}
+.user-info{
+    display: inline;
+    align-items: center;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(18, 61, 85);
+    margin: 15px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+    font-size: 18px;
+}
+.sub-menu-link span{
+    font-size: 18px;
+    transition: transform 0.5s;
+}
+
+.book{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.main-container{
+    background-color: rgb(18, 61, 85);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 5%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-top: 1px solid rgba(97, 147, 174, 0.374);
+   
+}
+.header #logo img{
+    width: 5%;
+}
+#logo span{
+    position: absolute;
+    top: 28%;
+    left: 1.5%;
+    color: rgb(18, 61, 85);
+    font-size: 25px;
+    text-decoration: none;
+   background-color: white;
+}
+.fasfa-bars img{
+  width: 50px;
+  height: 50px; 
+}
+button{
+    background: local;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+.content a{
+    display: block;
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.content{
+    position: absolute;
+    top: 12%;
+    right: 10px;
+   display: none;
+}
+.bground-text{
+    position: absolute;
+    top: 36%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+}
+.bground-text h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 10px auto;
+}
+.bground-text h2 span{
+    color: rgba(229, 217, 181, 0.832);
+}
+.bground-text h4{
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px auto;
+}
+.home-container{
+   background-color: white;
+    padding: 2rem 7%;
+    width: 100%;
+    height: 90vh;
+}
+.taxi-text{
+    margin: 0 auto;
+    background-color: white;
+    width: 85%;
+    height: 15vh;
+    position: absolute;
+    top: 47%;
+    left: 8%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.y-taxi-text{
+    margin: 0 auto;
+    background-color: white;
+    width: 85%;
+    height: 15vh;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border: 1px solid rgb(18, 61, 85);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+input[type=text], select {
+  padding: 7px 15px;
+  font-size: 18px;
+  display: inline-block;
+  width: 380px;
+  height: 5vh;
+border:none;
+font-family: 'Times New Roman', Times, serif;
+}
+input[type=date]{
+    padding: 10px 15px;
+    font-size: 18px;
+    display: inline-block;
+    width: 380px;
+    height: 5vh;
+  border:none;
+  font-family: 'Times New Roman', Times, serif;
+}
+.dev-1{
+    display: flex;
+    width: 350px;
+   
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.dev-1 img{
+    width: 12%;
+    height: 30%;
+    border-right: 1px solid black;
+    margin: 3px 0px;
+    padding-right: 5px;
+}
+.taxi-text1{
+    width: 70%;
+    height: 5%;
+    display: flex;
+   justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    top: 68%;
+    left: 15%;
+    margin: 0 auto;
+}
+.dev1-img{
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: rgb(130, 175, 200);
+    padding: 10px 20px;
+}
+.dev{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black ;
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+    padding: 5px 10px;
+    width: 24%;
+    height: 5vh;
+    box-shadow: rgba(68, 133, 252, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   cursor: pointer;
+   display: flex;
+}
+.dev a{
+    text-decoration: none;
+    color: black;
+}
+.dev img{
+    width: 15%;
+    height: 3.5vh;
+}
+.city ul{ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    position: absolute;
+    top: 40%;
+    right: 4.5%;
+    margin: 0 auto;  
+}
+.city ul li{
+    font-size: 15px;
+    color:rgb(18, 61, 85);
+    margin-top: 20px;
+    padding-right: 35px;
+}
+.jadval{
+    width: 100%;
+    height: 60vh;
+    margin-top: 16%;
+    background-color: rgb(171, 69, 69);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1{
+    width: 49%;
+    height: 90%;
+    background-color:rgb(222, 206, 237) ;
+    padding: auto;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+footer img{
+    width: 5%;
+}
+.con{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+.sub-menu-link:hover span {
+    transform: translateX(5px);
+}
+.sub-menu-link:hover p{
+    font-weight: 550;
+}
+.user-pic:hover{
+    color: rgb(3, 82, 173);
+}
+.dev:hover{
+    box-shadow: rgba(0, 1, 3, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: rgb(144, 195, 223);
+}
+.con:hover .content{
+    display: block;
+}
+.con a:hover{
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.859), 
+                     0px 0px 10px rgba(255, 255, 255, 1), 
+                     0px 0px 15px rgba(255, 255, 255, 1),
+                     0px 0px 20px rgb(247, 241, 241),
+                     0px 0px 30px rgb(143, 181, 131),
+                     0px 0px 40px rgba(73, 255, 24, 1),
+                     0px 0px 55px rgba(73, 255, 24, 1),
+                     0px 0px 75px rgba(73, 255, 24, 1);
+}
+.con:hover button{
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width:760px) {
+    html{
+        font-size: 50%;
+    }
+    #menu-bars{
+        display: initial;
+     }
+     #logo span{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        color: rgb(66, 175, 104);
+        font-size: 15px;    
+    }
+    .fasfa-bars img{
+        width: 30px;
+        height: 30px;  
+      }
+      .bground-text h4{
+        font-size: 15px; 
+    }
+    .bground-text{
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        transform: translate(-20%, -20%);
+    }
+    .bground-text h2{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin: 10px auto;
+    }
+    .main-container{
+        height: 50vh;
+    }
+    .taxi-text{
+        height: 17vh;
+        position: absolute;
+        top: 40%;
+        left: 8%;
+        padding: 20px auto;
+    }
+   .dev{
+    width: 28%;
+    font-size: 10px;
+   }
+   .dev img{
+    width: 20%;
+    height: 2vh;
+}
+.dev1 img{
+    width: 50px;
+    height: 6vh;
+    padding: 10px 15px;
+}
+.taxi-text1{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+.city ul li{
+    display: inline;
+    font-size: 8px;
+    margin-top: 30px;
+    padding-right: 3px;
+}
+input[type=text], select {
+    font-size: 12px;
+    width: 140px;
+    height: 6vh;
+  
+  }
+}

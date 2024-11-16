@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.continer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 5%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgba(97, 147, 174, 0.374);
+    height: 10vh;
+position: fixed;
+z-index: 5;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 10px -2px;
+}
+.continer1{
+    width: 100%;
+    padding: 15px 5%;
+   height: 10vh;
+}
+.continer2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 5%;
+    align-items: center;
+    background-color: rgba(245, 213, 213, 0.542);
+    border-top: 1px solid rgba(97, 147, 174, 0.374);
+    height: 60vh;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 10px -2px;
+}
+.continer2 img{
+    width: 5%;
+}
+.continer img{
+    width: 5%;
+}
+.sub-menu{
+    background: rgb(255, 255, 255);
+    padding: 5px 15px;
+}
+.user-info{
+    display: inline;
+    align-items: center;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(18, 61, 85);
+    margin: 15px 0;
+}
+.sub-menu-link p{
+    width: 100%;
+    font-size: 18px;
+}
+.sub-menu-link span{
+    font-size: 18px;
+    transition: transform 0.5s;
+}
+.user-pic{
+    font-size: 18px;
+    color: rgb(57, 131, 171);
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.user-pic1{
+    font-size: 18px;
+    color: rgb(223, 36, 36);
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.asosiy{
+    width: 100%;
+    min-height:  30vh;
+    border: 1px solid rgba(0, 0, 0, 0.058);
+}
+.taxi-text{
+    position: absolute;
+    margin: 2.5% 7.5%;
+    background-color: white;
+    width: 85%;
+    height: 15vh;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border: 1px solid rgba(0, 0, 0, 0.195);
+}
+.asos{
+    display: flex;
+    justify-content: space-between;
+}
+input[type=text], select {
+  padding: 7px 15px;
+  font-size: 18px;
+  display: inline-block;
+  width: 380px;
+  height: 5vh;
+border:none;
+font-family: 'Times New Roman', Times, serif;
+}
+input[type=date]{
+    padding: 10px 15px;
+    font-size: 18px;
+    display: inline-block;
+    width: 380px;
+    height: 5vh;
+  border:none;
+  font-family: 'Times New Roman', Times, serif;
+}
+.dev-1{
+    display: flex;
+    width: 350px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.dev1-img{
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: rgb(130, 175, 200);
+    padding: 10px 20px;
+}
+.dev-1 img{
+    width: 12%;
+    height: 30%;
+    border-right: 1px solid black;
+    margin: 3px 0px;
+    padding-right: 5px;
+}
+.city ul{ 
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 0 auto;  
+}
+.city ul li{
+    font-size: 14px;
+    color:rgb(18, 61, 85);
+    margin: 20px 0; 
+}
+.sana{
+   
+    margin-top: 10%;
+    padding: 4% 7%;
+    
+}
+.sana p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 2%;
+}
+.sana h1{
+    font-weight: 700;
+    font-size: 33px;
+    color: rgb(28, 25, 20);
+}
+.sana span{
+    color: rgb(57, 131, 171);
+}
+.taxi-text1{
+    width: 85%;
+    height: 5%;
+    display: flex;
+   justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 22%;
+    margin-bottom: 3%;
+}
+.dev{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black ;
+    border-radius: 10px;
+    font-size: 15px;
+    color: black;
+    padding: 5px 10px;
+    width: 13%;
+    height: 5vh;
+    box-shadow: rgba(68, 133, 252, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   cursor: pointer;
+   display: flex;
+}
+.dev a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+.yunalish p{
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 7px;
+
+    color: rgba(0, 0, 0, 0.493);
+}
+.yunalish button{
+    background-color: rgb(57, 131, 171);
+    width: 20%;
+    height: 5vh;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.check button{
+    height: 5vh;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 18%;
+}
+.tasd.open-menu2{
+    display: none;
+}
+
+
+
+
+
+.btn_2{
+    display: none;
+}
+.btn_2.open-menu2{
+    display: flex;
+}
+
+
+
+.bokx:hover{
+    background-color: rgba(225, 240, 248, 0.904);
+}
+.yunalish{
+    margin: 2.5% 7.5%;
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    height: 13vh;
+    border-top-right-radius:  30px;
+    border-top-left-radius:  30px;
+    padding: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    border: 1px solid rgba(0, 0, 0, 0.195);
+    display: flex;
+}
+.yunalish1{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vaqt{
+    color: blue;
+    padding-bottom: 2px;
+    font-size: 13px;
+}
+.manzil{
+  font-size: 20px;
+  color: black;
+}
+.yunalish2{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+  
+}
+.soat1{
+    padding: 1% 3%;
+    width: 30%;
+}
+.m{
+    display: flex;
+}
+.m-turi{
+    font-size: 17px;
+    font-weight: 550;
+    background-color: rgb(166, 172, 108);
+    padding: 1% 5%;
+    border-radius: 5px;
+}
+.m-raqami{
+    margin: auto 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.h2{
+    display: flex;
+    font-size: 15px;
+    margin: 0% 8%;
+    color: rgba(0, 0, 0, 0.474);
+}
+.h2 img{
+    width: 1%;
+    margin-right: 10px;
+}
+.soat2{
+    display: flex;
+    width: 30%;
+}
+.soat2 span{
+    padding: 5px 0px 0px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btn1{
+    width: 20%;
+    height: 45%;
+    margin: auto;
+    border-radius: 18px;
+    font-size: 20px;
+    color: white;
+    background: rgb(57, 131, 171);
+}
+.yunalish1 img{
+    width: 80%;
+    height: 7vh;
+}
+.head {
+    font-size: 20px;
+    padding: 2% 8%;
+    background-color: rgb(255, 255, 255);
+}
+.buttun{
+    width: 85%;
+    margin: auto;
+    height: 15vh;
+    background-color: #afbed6;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.495);
+    text-align: center;
+}
+.buttun img{
+    margin-top: 30px;
+    width: 2%;
+}
+.sub-menu-bar{
+    top: 100%;
+    right:5%;
+    width: 250px;
+    overflow: hidden;
+    max-height:0px;
+    position: absolute;
+    transition: min-height 0.2s ;
+}
+.check{
+    margin: 0% 7.5%;
+    width: 85%;
+    overflow: hidden;
+    border-bottom-right-radius:  30px;
+    border-bottom-left-radius:  30px;
+    background-color: #8fabd4;
+    transition: min-height 0.2s ;
+    padding: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+    border: 1px solid rgba(0, 0, 0, 0.195);
+   display: none;
+}
+.sub-menu-bar.open-menu{
+    position: absolute;
+    max-height: 400px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    z-index: 2;
+}
+.check.open-menu1{
+    display: flex;
+   z-index: 2;
+    max-height: 13vh;
+}
+
+
+
+
+
+
+
+
+
+
+.check p{
+    font-size: 12px;
+    padding: 10px 15px;
+    color: rgba(0, 0, 0, 0.493);
+}
+.btn2{
+    width: 15%;
+    height: 45%;
+    margin: auto;
+    border-radius: 18px;
+    font-size: 20px;
+    color: white;
+    background: rgb(230, 8, 12); 
+}
+.boxlar{
+    width: 85%;
+    height: 70vh;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    background-color: white;
+    width: 25%;
+    height: 80%;
+    margin: auto;
+}
+#sanaa{
+    font-size: 18px;
+    color: black;
+}
+#tog-btn1{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sub-menu-link:hover p{
+    text-shadow: 0 0 10px #8fabd4;
+}
+.sub-menu-link:hover span {
+    text-shadow: 0 0 10px #8fabd4;
+    transform: translateX(5px);
+}
+.user-pic:hover{
+    text-shadow: 0 0 10px #8fabd4;
+}
+.dev:hover{
+    box-shadow: rgba(0, 1, 3, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: rgb(144, 195, 223);
+}
+
+.band{
+
+}
+
+
